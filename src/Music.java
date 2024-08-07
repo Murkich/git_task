@@ -42,4 +42,8 @@ public class Music {
     String showEvent() {
         return "This music will be at the" + event;
     }
+
+    String showChart() {
+        return "This music will be at the" + chart;
+    }
 }
