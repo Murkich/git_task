@@ -5,4 +5,8 @@ public class Music {
     Speed speed;
     Concert concert;
     Event event;
+
+    String showConcert() {
+        return "This music will be at the" + concert;
+    }
 }
