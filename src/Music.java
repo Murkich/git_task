@@ -3,4 +3,8 @@ public class Music {
     Bit bit;
     Album album;
     Speed speed;
+
+    String showSpeedMusic() {
+        return "This music in " + speed + " now";
+    }
 }
