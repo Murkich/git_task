@@ -11,11 +11,11 @@ public class Music {
     }
 
     String showSpeedMusic() {
-        return "This music in " + speed + " now";
+        return "This music in " + speed + " x speed";
     }
 
     String showBit() {
-        return "This music like " + bit;
+        return "This music sound like " + bit;
     }
 
     String showAlbum() {
