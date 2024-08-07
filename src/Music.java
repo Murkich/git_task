@@ -4,4 +4,5 @@ public class Music {
     Album album;
     Speed speed;
     Concert concert;
+    Event event;
 }
