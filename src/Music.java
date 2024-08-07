@@ -11,7 +11,7 @@ public class Music {
     }
 
     String showSpeedMusic() {
-        return "This music in " + speed + " now";
+        return "This music in " + speed + " x speed";
     }
 
     String showBit() {
