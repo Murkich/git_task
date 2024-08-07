@@ -7,4 +7,8 @@ public class Music {
     String showSpeedMusic() {
         return "This music in " + speed + " now";
     }
+
+    String showBit() {
+        return "This music like " + bit;
+    }
 }
