@@ -9,4 +9,8 @@ public class Music {
     String showConcert() {
         return "This music will be at the" + concert;
     }
+
+    String showEvent() {
+        return "This music will be at the" + event;
+    }
 }
