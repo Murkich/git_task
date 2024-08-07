@@ -4,6 +4,9 @@ public class Music {
     Album album;
     Speed speed;
     Rank rank;
+    Chart chart;
+    Concert concert;
+    Event event;
 
     //fix some bug
     String showBug() {
@@ -22,5 +25,25 @@ public class Music {
 
     String showAlbum() {
         return "This music in " + album;
+    }
+
+    String showRankMusic() {
+        return "This music in " + rank;
+    }
+
+    String showNameMusic() {
+        return "This music is" + name;
+    }
+
+    String showConcert() {
+        return "This music will be at the" + concert;
+    }
+
+    String showEvent() {
+        return "This music will be at the" + event;
+    }
+
+    String showChart() {
+        return "This music will be at the" + chart;
     }
 }
