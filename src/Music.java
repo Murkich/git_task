@@ -21,4 +21,8 @@ public class Music {
     String showAlbum() {
         return "This music in " + album;
     }
+
+    String showRankMusic() {
+        return "This music in " + rank;
+    }
 }
