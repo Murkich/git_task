@@ -5,9 +5,11 @@ public class Music {
     Speed speed;
     Rank rank;
 
-    //fis some bug
+    //fix some bug
     String showBug() {
-        return "There are no bugs here!";
+        return "There are no bugs here!\n" +
+                "Are you sure?\n" +
+                "Yep!";
     }
 
     String showSpeedMusic() {
