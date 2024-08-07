@@ -3,4 +3,5 @@ public class Music {
     Bit bit;
     Album album;
     Speed speed;
+    Concert concert;
 }
