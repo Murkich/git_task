@@ -8,7 +8,8 @@ public class Music {
     //fix some bug
     String showBug() {
         return "There are no bugs here!\n" +
-                "Are you sure?";
+                "Are you sure?\n" +
+                "Yep!";
     }
 
     String showSpeedMusic() {
