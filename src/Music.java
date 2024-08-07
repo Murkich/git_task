@@ -4,6 +4,7 @@ public class Music {
     Album album;
     Speed speed;
     Rank rank;
+    Chart chart;
 
     //fis some bug
     String showBug() {
