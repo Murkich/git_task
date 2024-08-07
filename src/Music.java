@@ -15,7 +15,7 @@ public class Music {
     }
 
     String showBit() {
-        return "This music like " + bit;
+        return "This music sound like " + bit;
     }
 
     String showAlbum() {
